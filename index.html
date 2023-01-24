@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KS NUTEITION - Home</title>
+  <link rel="icon" type="image/x-icon" href="img/logo.jpeg">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="image_hover.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="product.css">
+  <link rel="stylesheet" href="nav_footer.css" />
+  <!-- Unicons CSS -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+
+<body>
+  <nav class="nav">
+    <i class="uil uil-bars navOpenBtn"></i>
+    <a href="index.html" id="logo" style="font-family: cursive;color: yellow;"><img
+        src="img/logo.jpeg"><strong></strong></a>
+    <a href="" class="logo" id="logo1">KS NUTRITION</a>
+    <ul class="nav-links">
+      <i class="uil uil-times navCloseBtn"></i>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <div class="dropdown">
+          <button type="button" class="dropbtn" onclick="window.location.href='products.html';">Products
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="pcat1.html">ProductCat1</a>
+            <a href="pcat2.html">ProductCat2</a>
+            <a href="pcat3.html">ProductCat3</a>
+          </div>
+        </div>
+      </li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <i class="uil uil-search search-icon" id="searchIcon"></i>
+    <div class="search-box">
+      <i class="uil uil-search search-icon"></i>
+      <input type="text" id="searchBox" placeholder="Search here..." />
+    </div>
+  </nav>
+
+  <div class="slider">
+    <figure>
+      <div class="slide">
+        <img src="img/banner1.jpeg">
+      </div>
+    </figure>
+    <figure>
+      <div class="slide">
+        <img src="img/banner2.jpeg">
+      </div>
+    </figure>
+    <figure>
+      <div class="slide">
+        <img src="img/banner3.jpeg">
+      </div>
+    </figure>
+    <figure>
+      <div class="slide">
+        <img src="img/banner4.jpeg">
+      </div>
+    </figure>
+    <figure>
+      <div class="slide">
+        <img src="img/banner3.jpeg">
+      </div>
+    </figure>
+  </div>
+  <h1
+    style="color:rgb(44, 9, 9);font-weight:900;font-size:35px;margin-bottom:20px;margin-top:25px;text-align: center;font-family: 'Courier New', Courier, monospace;">
+    WHY CHOOSE US?
+  </h1>
+
+  <div class="whyUs"
+    style="border-bottom:1px solid thistle;display: inline-block;margin-top: 5px;margin-bottom:20px;padding-bottom:20px;width: 100%;">
+    <div class="why" style="float:left;width:33%;min-width:300px;text-align: center;">
+      <h3 style="margin:auto;margin-bottom:15px;width:90%;background-color:rgb(36, 24, 24);color: #ddd;">Best Quality
+      </h3>
+      <ul>
+        <li style="text-align:left;margin-left:45px">We believe in quality.</li>
+        <li style="text-align:left;margin-left:45px">Our concern is quality not quantity.</li>
+        <li style="text-align:left;margin-left:45px">Quality always matters.</li>
+        <li style="text-align:left;margin-left:45px">We do our best for our product quality.</li>
+      </ul>
+    </div>
+    <div class="why" style="float:left;width:33%;min-width:300px;text-align: center;">
+      <h3 style="margin:auto;margin-bottom:15px;width:90%;background-color:rgb(36, 24, 24);color: #ddd;">Affordable
+        Price</h3>
+      <ul>
+        <li style="text-align:left;margin-left:45px">We always here for your service.</li>
+        <li style="text-align:left;margin-left:45px">We are always there for you.</li>
+        <li style="text-align:left;margin-left:45px">We drive to save time.</li>
+        <li style="text-align:left;margin-left:45px">We live to save time.</li>
+      </ul>
+    </div>
+    <div class="why" style="float:left;width:33%;min-width:300px;text-align: center;">
+      <h3 style="margin:auto;margin-bottom:15px;width:90%;background-color:rgb(36, 24, 24);color: #ddd;">Fast Delivery
+      </h3>
+      <ul>
+        <li style="text-align:left;margin-left:45px">We always here for your service.</li>
+        <li style="text-align:left;margin-left:45px">We are always there for you.</li>
+        <li style="text-align:left;margin-left:45px">We drive to save time.</li>
+        <li style="text-align:left;margin-left:45px">We live to save time.</li>
+      </ul>
+    </div>
+  </div>
+  <h1 style="width: 100%;" class="product_head">Our Most Popular Products</h1>
+  <a class="whatsapp" href="https://wa.me/919873099161?text=Hi"><img src="img/whatsapp_logo.jpg" alt="whatsapp me"></a>
+  <div class="products container">
+    <!-- <div class="product">
+      <a href="p1.html">
+        <img src="img/p1.jpeg">
+      </a>
+      <p class="p_desc">Creatine Monohydrate</p>
+    </div>
+    <div class="product">
+      <a href="p2.html"><img src="img/p2.jpeg"></a>
+      <p class="p_desc">Essential Amino Acids</p>
+    </div>
+    <div class="product">
+      <a href="p3.html"><img src="img/p3.jpeg"></a>
+      <p class="p_desc">Kings Mass Weight Gainer</p>
+    </div> -->
+    <div class="product image-box">
+      <img src="img/p1.jpeg" title="" alt="">
+        <div class="text-box">
+          <h1>Creatine Monohydrate</h1>
+          <a href="p1.html">Click Here</a>
+        </div>
+        <!-- <p class="p_desc">Creatine Monohydrate</p> -->
+    </div>
+    <div class="product image-box">
+      <img src="img/p2.jpeg" title="" alt="">
+        <div class="text-box">
+          <h1>Essential Amino Acids</h1>
+          <a href="p2.html">Click Here</a>
+        </div>
+        <!-- <p class="p_desc">Essential Amino Acids</p> -->
+    </div>
+    <div class="product image-box">
+      <img src="img/p3.jpeg" title="" alt="">
+        <div class="text-box">
+          <h1>Kings Mass Weight Gainer</h1>
+          <a href="p3.html">Click Here</a>
+        </div>
+        <!-- <p class="p_desc">Kings Mass Weight Gainer</p> -->
+    </div>
+
+    
+    
+  </div>
+  <!-- <div class="browse"><a href="products.html">Browse Products...</a></div> -->
+  <!-- <h1 class="product_head">Our Most Popular Products</h1> -->
+  <div class="products">
+    <!-- <div class="product">
+      <a href="p9.html"><img src="img/p9.jpeg"></a>
+      <p class="p_desc">Anabolic Muscle Gainer</p>
+    </div>
+    <div class="product">
+      <a href="p10.html"><img src="img/p10.jpeg"></a>
+      <p class="p_desc">WHEY POWER ULTRA-PREMIUM GRADE SUPPLEMENT</p>
+    </div>
+    <div class="product">
+      <a href="p11.html"><img src="img/p11.jpeg"></a>
+      <p class="p_desc">WHEY POWER ULTRA-PREMIUM GRADE SUPPLEMENT</p>
+    </div> -->
+
+    <div class="product image-box">
+      <img src="img/p9.jpeg" title="" alt="">
+        <div class="text-box">
+          <h1>Anabolic Muscle Gainer</h1>
+          <a href="p9.html">Click Here</a>
+        </div>
+        <!-- <p class="p_desc">Anabolic Muscle Gainer</p> -->
+    </div>
+    <div class="product image-box">
+      <img src="img/p10.jpeg" title="" alt="">
+        <div class="text-box">
+          <h1>WHEY POWER ULTRA-PREMIUM GRADE SUPPLEMENT</h1>
+          <a href="p10.html">Click Here</a>
+        </div>
+        <!-- <p class="p_desc">WHEY POWER ULTRA-PREMIUM GRADE SUPPLEMENT</p> -->
+    </div>
+    <div class="product image-box">
+      <img src="img/p11.jpeg" title="" alt="">
+        <div class="text-box">
+          <h1>WHEY POWER ULTRA-PREMIUM GRADE SUPPLEMENT</h1>
+          <a href="p11.html">Click Here</a>
+        </div>
+        <!-- <p class="p_desc">WHEY POWER ULTRA-PREMIUM GRADE SUPPLEMENT</p> -->
+    </div>
+  </div>
+  <div class="browse"><a href="products.html">Browse Products...</a></div>
+  
+  <div class="testi_main">
+    <div class="testi">
+      <div class="slider" id="slider">
+        <figure>
+          <div class="slide">
+            <h3>Welcome</h3>
+            <h2>Testinomials</h2>
+            <q>Very good quality and cost effective products are available here.</q>
+            <h4>-Mr. Santosh</h4>
+          </div>
+        </figure>
+        <figure>
+          <div class="slide">
+            <h3>Welcome</h3>
+            <h2>Testinomials</h2>
+            <q>Best quality products are available at ffordable price.</q>
+            <h4>-Mr. Alok</h4>
+          </div>
+        </figure>
+        <figure>
+          <div class="slide">
+            <h3>Welcome</h3>
+            <h2>Testinomials</h2>
+            <q>It is the best place for people who are looking for healthy body building.</q>
+            <h4>-Mr. Prabhat</h4>
+          </div>
+        </figure>
+        <figure>
+          <div class="slide">
+            <h3>Welcome</h3>
+            <h2>Testinomials</h2>
+            <q>I am very much impressed with it's quality products and also enjoining my healthy body.</q>
+            <h4>-Mr. Surya</h4>
+          </div>
+        </figure>
+        <figure>
+          <div class="slide">
+            <h3>Welcome</h3>
+            <h2>Testinomials</h2>
+            <q>This is very authenti place to find out healthy body building supplements. It provides all types of dietry supplements at affordable price. and also take care of your overall health.</q>
+            <h4>-Mr. Prakash</h4>
+          </div>
+        </figure>
+      </div>
+    </div>
+    <div class="testi">
+      <h2 style="margin:15px 0 10px;color: rgb(128, 105, 0);text-align: center;font-family: 'Courier New', Courier, monospace;">Post Your Enquiry</h2>
+      <form action="https://formsubmit.co/skspices3@gmail.com" id="ContactUs100" method="post"
+        onsubmit="return ValidateForm(this);">
+
+        <table>
+          <tr>
+            <td>
+              <label for="Name">Name*:</label>
+            </td>
+            <td>
+              <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="PhoneNumber">Phone number:</label>
+            </td>
+            <td>
+              <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="EmailAddress">Email address*:</label>
+            </td>
+            <td>
+              <input name="EmailAddress" type="email" maxlength="90" style="width:100%;max-width:250px;" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="Message">Query*:</label>
+            </td>
+            <td>
+              <textarea name="Message" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              * - required fields
+            </td>
+            <td>
+              <input type="submit" value="Post"
+                style="margin-left:10px;cursor:pointer;width: auto;border-radius: 5px;background-color: black;color: #fff;font-size: 1.5vw;font-family: Arial, Helvetica, sans-serif;" />
+              <input type="reset" value="Reset"
+                style="margin-left:20px;cursor:pointer;width:auto; border-radius: 5px;background-color: black;color: #fff;font-size: 1.5vw;font-family: Arial, Helvetica, sans-serif;" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div class="footer1 ">
+      Connect with us at<div class="social-media">
+        <a href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </div>
+    </div>
+    <div class="footer2">
+      <div class="footr2">
+        <a href="privacy.html">Privacy & Policy</a>
+      </div>
+    </div>
+    <div class="footer3" id="footer3">Copyright © <h4>KS NUTRITION</h4>2023</div>
+  </footer>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="nav.js" defer></script>
+  <script src="search.js"></script>
+  <script src="contact.js"></script>
+</body>
+
+</html>
